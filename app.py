@@ -6,7 +6,7 @@ from games.jeux_statique_general import CustomStaticGame
 # Initialisation des jeux
 dilemme_prisonnier = Game(
     name="Dilemme du Prisonnier",
-    strategies=[["Coopérer", "Défaut"], ["Coopérer", "Défaut"]],
+    strategies=[["Coopérer", "Trahir"], ["Coopérer", "Trahir"]],
     payoff_matrix=[
         [[3, 3], [0, 5]],
         [[5, 0], [1, 1]]
